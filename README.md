@@ -2,15 +2,11 @@
 
 # SharedUtil
 
-<a href="https://vikmanou.github.io/SharedUtil/">
-  <img src="https://github.com/Vikmanou/SharedUtil/actions/workflows/docs.yml/badge.svg" alt="Documentation status" />
-</a>
-<a href="https://github.com/Vikmanou/SharedUtil/actions/workflows/test.yml">
-  <img src="https://github.com/Vikmanou/SharedUtil/actions/workflows/test.yml/badge.svg" alt="Tests status" />
-</a>
-<a href="LICENSE">
-  <img src="https://img.shields.io/badge/License-MIT-9ece6a?style=for-the-badge" alt="license" />
-</a>
+<img src="https://img.shields.io/badge/SharedUtil-v1.0.0-7aa2f7?style=for-the-badge&logoColor=white" alt="version" />
+<img src="https://img.shields.io/badge/Luau-Roblox-00A2FF?style=for-the-badge&logoColor=white" alt="luau" />
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-9ece6a?style=for-the-badge" alt="license" /></a>
+<a href="https://github.com/Vikmanou/SharedUtil/actions/workflows/test.yml"><img src="https://img.shields.io/badge/Tests-passing-1abc9c?style=for-the-badge" alt="tests" /></a>
+
 
 <p>Utility modules for Roblox game development.</p>
 
@@ -26,12 +22,12 @@
 
 | Package | Description | docs | source |
 | ------- | ------------ | ---- | ------ |
-| [Math](https://vikmanou.github.io/SharedUtil/api/Math) | Numeric, geometry, physics, GUI and number-theory helpers for Roblox. | [docs](https://vikmanou.github.io/SharedUtil/api/Math) | [source](modules/math) |
-| [Table](https://vikmanou.github.io/SharedUtil/api/Table) | Table utility helpers. | [docs](https://vikmanou.github.io/SharedUtil/api/Table) | [source](modules/table) |
+| [Math](https://vikmanou.github.io/SharedUtil/api/Math) | Mathematical utility function. | [docs](https://vikmanou.github.io/SharedUtil/api/Math) | [source](modules/math) |
+| [Table](https://vikmanou.github.io/SharedUtil/api/Table) | Table utility functions. | [docs](https://vikmanou.github.io/SharedUtil/api/Table) | [source](modules/table) |
 
 ## Installation
 
-Each module is a standalone `init.luau` under [`modules/`](modules). Copy the folder you need into your project and require it, or sync the whole repo in with [Rojo](https://rojo.space/).
+Each module is a standalone `init.luau` under [`modules/`](modules). Copy the file you need into your project and require it.
 
 ## Testing
 
@@ -40,8 +36,3 @@ Tests run with [Lute](https://github.com/luau-lang/lute), a plain-Luau runtime.
 ```sh
 lute test
 ```
-
-### Roblox-only functions
-
-Lute has no Roblox datatypes, so functions taking or returning `Vector3`, `CFrame`,
-`Color3`, `Vector2`, `Instance` or `GuiObject` cannot be exercised under `lute test`.
