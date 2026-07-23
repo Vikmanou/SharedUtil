@@ -1,0 +1,25 @@
+gitRepoUrl = "https://github.com/Vikmanou/SharedUtil"
+gitSourceBranch = "main"
+
+[[classOrder]]
+section = "Modules"
+classes = ["Math", "Table"]
+
+[home]
+enabled = true
+includeReadme = false
+
+[[home.features]]
+title = "Ready to use"
+description = "Every module is a single file that can be dropped straight into your project."
+
+[[home.features]]
+title = "Zero dependencies"
+description = "No external packages required. Each module stands alone."
+
+[[home.features]]
+title = "Lute-tested"
+description = "Backed by Lute's test suite that runs on every push."
+
+[docusaurus]
+tagline = "Utility modules for Roblox game development"
