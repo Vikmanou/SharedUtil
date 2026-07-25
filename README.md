@@ -23,7 +23,7 @@
 | Package | Description | docs | source |
 | ------- | ------------ | ---- | ------ |
 | [Math](https://vikmanou.github.io/SharedUtil/api/Math) | Mathematical utility function. | [docs](https://vikmanou.github.io/SharedUtil/api/Math) | [source](modules/math) |
-| [Table](https://vikmanou.github.io/SharedUtil/api/Table) | Table utility functions. | [docs](https://vikmanou.github.io/SharedUtil/api/Table) | [source](modules/table) |
+| [String](https://vikmanou.github.io/SharedUtil/api/String) | String utility functions. | [docs](https://vikmanou.github.io/SharedUtil/api/String) | [source](modules/string) |
 
 ## Installation
 

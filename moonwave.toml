@@ -3,7 +3,7 @@ gitSourceBranch = "main"
 
 [[classOrder]]
 section = "Modules"
-classes = ["Math", "Table"]
+classes = ["Math", "String"]
 
 [home]
 enabled = true
